@@ -1,3 +1,9 @@
+-- Create the database first
+CREATE DATABASE IF NOT EXISTS ALX_BOOK_STORE;
+
+-- Switch to the database
+USE ALX_BOOK_STORE;
+
 -- Create Authors table
 CREATE TABLE AUTHORS (
     author_id INT PRIMARY KEY,
